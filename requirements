@@ -1,8 +1,0 @@
-tensorflow
-cv2
-streamlit
-PIL
-matplotlib
-numpy
-streamlit_drawable_canvas
-sklearn.model_selection

@@ -203,7 +203,7 @@ If the number of hidden layer is more than one then it is known as a deep neural
     """
     )
 
-    st.image("K1.png",
+    st.image("ANN.png",
              caption="Neural Network Animation",
             width=800)
 
@@ -228,7 +228,7 @@ Now comes the backpropagation part where the network determines how to adjust al
 
     # Display a single example image
 
-    st.image("K2.png",
+    st.image("Pred.png",
              caption="Neural Network Animation",
              width=800)
 

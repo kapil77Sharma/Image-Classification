@@ -1,4 +1,5 @@
-tensorlofw
+tensorflow
+cv2
 streamlit
 PIL
 matplotlib

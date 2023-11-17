@@ -203,9 +203,16 @@ If the number of hidden layer is more than one then it is known as a deep neural
     """
     )
 
-    st.image("ANN.GIF",
-             caption="Neural Network Animation",
-             width=800)
+    file_=open("ANN.gif", "rb")
+    contents = file_.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    file_.close()
+
+    caption = "ANN",
+    st.markdown(
+        f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+        unsafe_allow_html=True,
+    )
 
     st.markdown(
         """

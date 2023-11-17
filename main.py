@@ -1,4 +1,4 @@
-import base64
+import base58
 
 from sklearn.model_selection import train_test_split
 from tensorflow import keras
@@ -210,7 +210,7 @@ If the number of hidden layer is more than one then it is known as a deep neural
     """### gif from local file"""
     file_ = open("/Users/kapilsharma/PycharmProjects/KAPIL/ANN.gif", "rb")
     contents = file_.read()
-    data_url = base64.b64encode(contents).decode("utf-8")
+    data_url = base58.b58encode(contents).decode("utf-8")
     file_.close()
 
     st.markdown(
@@ -244,7 +244,7 @@ Now comes the backpropagation part where the network determines how to adjust al
 
     file_ = open("/Users/kapilsharma/PycharmProjects/KAPIL/New animation.gif", "rb")
     contents = file_.read()
-    data_url = base64.b64encode(contents).decode("utf-8")
+    data_url = base58.b58encode(contents).decode("utf-8")
     file_.close()
 
     st.markdown(

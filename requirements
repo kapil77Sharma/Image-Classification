@@ -1,0 +1,7 @@
+tensorlofw
+streamlit
+PIL
+matplotlib
+numpy
+streamlit_drawable_canvas
+sklearn.model_selection
